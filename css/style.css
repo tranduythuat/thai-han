@@ -391,11 +391,21 @@
 
 .family__info__block__line {
   width: 100%;
+  position: relative;
+}
+
+.family__info__block__line .icon {
+  position: absolute;
+  max-width: 20px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transform: translate(-50%,-90%);
 }
 
 .family__info__block__line hr {
   width: 100%;
-  border-top: 1px solid var(--primary-color);
+  border-top: 2px solid var(--primary-color);
 }
 
 .family__info__block__image {
