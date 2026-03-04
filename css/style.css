@@ -571,7 +571,7 @@
 
 .add2 {
   font-family: var(--font-lora);
-  font-size: 13.2px;
+  font-size: 11.2px;
   line-height: 1.5;
 }
 
@@ -611,7 +611,7 @@
 
 .lb-timeline2 {
   font-family: var(--font-lora);
-  font-size: 0.6em;
+  font-size: 9.6px;
   letter-spacing: 0.5px;
 }
 
@@ -1489,7 +1489,8 @@ div:where(.swal2-container) img:where(.swal2-image) {
     font-size: calc((8 / 500) * 100vw);
   }
 
-  .card p, .lb-end, .yen {
+  .card p, .lb-end, .yen,
+  .lb-timeline2 {
     font-size: calc((9.6 / 500) * 100vw);
   }
 
@@ -1502,11 +1503,12 @@ div:where(.swal2-container) img:where(.swal2-image) {
     font-size: calc((11 / 500) * 100vw);
   }
 
-  .til-check {
+  .til-check,
+  .add2 {
     font-size: calc((11.2 / 500) * 100vw);
   }
 
-  .lb-top2, .lb-timeline2 {
+  .lb-top2 {
     font-size: calc((13.6 / 500) * 100vw);
   }
 
@@ -1526,7 +1528,7 @@ div:where(.swal2-container) img:where(.swal2-image) {
   }
 
   .nhatrai,
-  .lb-time, .add2, .maps, .lb-color, .lb-text, .xacnhan {
+  .lb-time, .maps, .lb-color, .lb-text, .xacnhan {
     font-size: calc((13.2 / 500) * 100vw);
   }
 
